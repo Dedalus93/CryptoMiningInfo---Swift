@@ -37,7 +37,7 @@ And after you can open the .xcworkspace generated and run the app or even modify
 
 ## Contribute
 
-We would love you for the contribution to :
+We would love to thanks for the contribution to :
  - [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)
  - [Reachability](https://github.com/ashleymills/Reachability.swift)
  - [Charts](https://github.com/ChartsOrg/Charts)
