@@ -13,7 +13,7 @@
 <br />
 <p align="center">
   <p align="center">
-    Do you need the most important info of the top 10 crypto on the world! This is the right app!
+    Do you need the most important info of the top 10 crypto on the world? This is the right app!
   </p>
 </p>
 
