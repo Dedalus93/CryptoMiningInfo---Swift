@@ -55,6 +55,7 @@ class CoinListViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let viewController = segue.destination as? LineChartViewController {
             if let viewObject = sender as? (name: String, description: String, link: String, values: [Double]) {
+                viewController.coinName = viewObject.name
                 viewController.title = viewObject.name + " Info"
                 viewController.coinDescription = viewObject.description
                 viewController.linkString = viewObject.link

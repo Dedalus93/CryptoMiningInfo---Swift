@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5iD-SG-7ag">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -107,7 +108,7 @@
                     <connections>
                         <outlet property="rightBarButton" destination="Vqg-nN-lRK" id="YAq-uR-yXL"/>
                         <outlet property="tableView" destination="TbN-0O-WTq" id="ZKQ-Ff-UI4"/>
-                        <segue destination="bqV-9W-PQc" kind="show" identifier="CoinInfo" id="uk0-wZ-SNP"/>
+                        <segue destination="bqV-9W-PQc" kind="presentation" identifier="CoinInfo" modalPresentationStyle="pageSheet" id="uk0-wZ-SNP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -119,21 +120,21 @@
             <objects>
                 <viewController id="bqV-9W-PQc" customClass="LineChartViewController" customModule="CryptoInfoMining" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="drD-uX-s3Q">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ty0-bD-gJe" customClass="LineChartView" customModule="DGCharts">
-                                <rect key="frame" x="0.0" y="403" width="393" height="375"/>
+                                <rect key="frame" x="0.0" y="300" width="393" height="502"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" showsExpansionTextWhenTruncated="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qwI-4h-O74">
-                                <rect key="frame" x="20" y="113" width="353" height="13.333333333333329"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" showsExpansionTextWhenTruncated="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qwI-4h-O74">
+                                <rect key="frame" x="20" y="10" width="353" height="13.333333333333336"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9XM-UE-lJu">
-                                <rect key="frame" x="125.33333333333333" y="373" width="142.33333333333337" height="20"/>
+                                <rect key="frame" x="125.33333333333333" y="270" width="142.33333333333337" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="0o0-Wv-u93"/>
                                 </constraints>

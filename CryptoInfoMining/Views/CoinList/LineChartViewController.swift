@@ -7,6 +7,7 @@
 
 import UIKit
 import DGCharts
+import WebKit
 
 class LineChartViewController: DemoBaseViewController {
 
@@ -19,11 +20,14 @@ class LineChartViewController: DemoBaseViewController {
     var linkString : String?
     var chartData: [Double]?
     
+    @IBOutlet weak var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         self.descriptionLabel.text = coinDescription
+        self.linkButton.setTitle("Visit \(coinName ?? "") website", for: .normal)
         self.title = coinName ?? "" + "Info"
         
         chartView.delegate = self
@@ -150,7 +154,11 @@ class LineChartViewController: DemoBaseViewController {
             dataSet.formSize = 15
         }
     }
+    
+    ///
     @IBAction func linkButtonPressed(_ sender: Any) {
-        
+        if let url = URL(string: linkString ?? "") {
+            UIApplication.shared.open(url)
+        }
     }
 }
