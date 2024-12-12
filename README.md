@@ -47,7 +47,7 @@ We would love you for the contribution to :
  - [Charts](https://github.com/ChartsOrg/Charts)
  - [RxSwift](https://github.com/ReactiveX/RxSwift)
 
-[https://github.com/yourname/github-link](https://github.com/Dedalus93)
+[Dedalus93 Github](https://github.com/Dedalus93)
 
 [swift-image]:https://img.shields.io/badge/swift-4.0-orange.svg
 [swift-url]: https://swift.org/
