@@ -7,20 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		195455DB2D08B3C1000EAB75 /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 195455DA2D08B3C1000EAB75 /* SVProgressHUD */; };
-		195455E22D08C67B000EAB75 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 195455E12D08C67B000EAB75 /* RxBlocking */; };
-		195455E42D08C67B000EAB75 /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 195455E32D08C67B000EAB75 /* RxBlocking-Dynamic */; };
-		195455E62D08C67B000EAB75 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 195455E52D08C67B000EAB75 /* RxCocoa */; };
-		195455E82D08C67B000EAB75 /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 195455E72D08C67B000EAB75 /* RxCocoa-Dynamic */; };
-		195455EA2D08C67B000EAB75 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 195455E92D08C67B000EAB75 /* RxRelay */; };
-		195455EC2D08C67B000EAB75 /* RxRelay-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 195455EB2D08C67B000EAB75 /* RxRelay-Dynamic */; };
-		195455EE2D08C67B000EAB75 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 195455ED2D08C67B000EAB75 /* RxSwift */; };
-		195455F02D08C67B000EAB75 /* RxSwift-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 195455EF2D08C67B000EAB75 /* RxSwift-Dynamic */; };
-		195455F22D08C67B000EAB75 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 195455F12D08C67B000EAB75 /* RxTest */; };
-		195455F42D08C67B000EAB75 /* RxTest-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 195455F32D08C67B000EAB75 /* RxTest-Dynamic */; };
-		195455F72D08CAFB000EAB75 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 195455F62D08CAFB000EAB75 /* Alamofire */; };
-		195455F92D08CAFB000EAB75 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 195455F82D08CAFB000EAB75 /* AlamofireDynamic */; };
-		195455FC2D08CB7D000EAB75 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 195455FB2D08CB7D000EAB75 /* Reachability */; };
+		191ED2FD2D0A836F0013EB41 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 191ED2FC2D0A836F0013EB41 /* README.md */; };
+		19E5E20D2D09D565000D1076 /* Pods_CryptoInfoMining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC56C4761357B9160A12760 /* Pods_CryptoInfoMining.framework */; };
+		B7B5AA88DD4089A261091CB8 /* Pods_CryptoInfoMiningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F652B38110BFBE0C0DFEC431 /* Pods_CryptoInfoMiningTests.framework */; };
+		E844DACAB0A16D615EF1CFF0 /* Pods_CryptoInfoMining_CryptoInfoMiningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC95A91AB9BC9A7AE1933EA8 /* Pods_CryptoInfoMining_CryptoInfoMiningUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191ED2FC2D0A836F0013EB41 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		195CDE572D04BE9B00F4E7B9 /* CryptoInfoMining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoInfoMining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195CDE702D04BE9C00F4E7B9 /* CryptoInfoMiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoInfoMiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		195CDE7A2D04BE9C00F4E7B9 /* CryptoInfoMiningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoInfoMiningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E5E1E62D09D299000D1076 /* RxCocoaRuntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RxCocoaRuntime.xcframework; sourceTree = "<group>"; };
+		19E5E1EA2D09D2FE000D1076 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		41444B215298B8BACDD014AE /* Pods-CryptoInfoMining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoInfoMining.debug.xcconfig"; path = "Target Support Files/Pods-CryptoInfoMining/Pods-CryptoInfoMining.debug.xcconfig"; sourceTree = "<group>"; };
+		48AFB23BC984531DBC9F8E11 /* Pods-CryptoInfoMining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoInfoMining.release.xcconfig"; path = "Target Support Files/Pods-CryptoInfoMining/Pods-CryptoInfoMining.release.xcconfig"; sourceTree = "<group>"; };
+		9BC56C4761357B9160A12760 /* Pods_CryptoInfoMining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoInfoMining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A139DEE84F0B08DF28373192 /* Pods-CryptoInfoMiningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoInfoMiningTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoInfoMiningTests/Pods-CryptoInfoMiningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A80B1BA4F916828B3042C9D7 /* Pods-CryptoInfoMining-CryptoInfoMiningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoInfoMining-CryptoInfoMiningUITests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoInfoMining-CryptoInfoMiningUITests/Pods-CryptoInfoMining-CryptoInfoMiningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC95A91AB9BC9A7AE1933EA8 /* Pods_CryptoInfoMining_CryptoInfoMiningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoInfoMining_CryptoInfoMiningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC5F953506367B2DFAE2021 /* Pods-CryptoInfoMiningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoInfoMiningTests.release.xcconfig"; path = "Target Support Files/Pods-CryptoInfoMiningTests/Pods-CryptoInfoMiningTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED1AE4E7372B2D0084D0294F /* Pods-CryptoInfoMining-CryptoInfoMiningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoInfoMining-CryptoInfoMiningUITests.release.xcconfig"; path = "Target Support Files/Pods-CryptoInfoMining-CryptoInfoMiningUITests/Pods-CryptoInfoMining-CryptoInfoMiningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F652B38110BFBE0C0DFEC431 /* Pods_CryptoInfoMiningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoInfoMiningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -82,18 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195455F92D08CAFB000EAB75 /* AlamofireDynamic in Frameworks */,
-				195455FC2D08CB7D000EAB75 /* Reachability in Frameworks */,
-				195455EA2D08C67B000EAB75 /* RxRelay in Frameworks */,
-				195455F02D08C67B000EAB75 /* RxSwift-Dynamic in Frameworks */,
-				195455E42D08C67B000EAB75 /* RxBlocking-Dynamic in Frameworks */,
-				195455E82D08C67B000EAB75 /* RxCocoa-Dynamic in Frameworks */,
-				195455DB2D08B3C1000EAB75 /* SVProgressHUD in Frameworks */,
-				195455F72D08CAFB000EAB75 /* Alamofire in Frameworks */,
-				195455E62D08C67B000EAB75 /* RxCocoa in Frameworks */,
-				195455EC2D08C67B000EAB75 /* RxRelay-Dynamic in Frameworks */,
-				195455EE2D08C67B000EAB75 /* RxSwift in Frameworks */,
-				195455E22D08C67B000EAB75 /* RxBlocking in Frameworks */,
+				19E5E20D2D09D565000D1076 /* Pods_CryptoInfoMining.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195455F42D08C67B000EAB75 /* RxTest-Dynamic in Frameworks */,
-				195455F22D08C67B000EAB75 /* RxTest in Frameworks */,
+				B7B5AA88DD4089A261091CB8 /* Pods_CryptoInfoMiningTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E844DACAB0A16D615EF1CFF0 /* Pods_CryptoInfoMining_CryptoInfoMiningUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +114,10 @@
 				195CDE732D04BE9C00F4E7B9 /* CryptoInfoMiningTests */,
 				195CDE7D2D04BE9C00F4E7B9 /* CryptoInfoMiningUITests */,
 				195CDE582D04BE9B00F4E7B9 /* Products */,
+				65460D112D7612CCC63BABB4 /* Pods */,
+				CA64CBC9AE357CD9A52DB92C /* Frameworks */,
+				19E5E1EA2D09D2FE000D1076 /* Podfile */,
+				191ED2FC2D0A836F0013EB41 /* README.md */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -137,6 +132,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		65460D112D7612CCC63BABB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41444B215298B8BACDD014AE /* Pods-CryptoInfoMining.debug.xcconfig */,
+				48AFB23BC984531DBC9F8E11 /* Pods-CryptoInfoMining.release.xcconfig */,
+				A80B1BA4F916828B3042C9D7 /* Pods-CryptoInfoMining-CryptoInfoMiningUITests.debug.xcconfig */,
+				ED1AE4E7372B2D0084D0294F /* Pods-CryptoInfoMining-CryptoInfoMiningUITests.release.xcconfig */,
+				A139DEE84F0B08DF28373192 /* Pods-CryptoInfoMiningTests.debug.xcconfig */,
+				DFC5F953506367B2DFAE2021 /* Pods-CryptoInfoMiningTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA64CBC9AE357CD9A52DB92C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19E5E1E62D09D299000D1076 /* RxCocoaRuntime.xcframework */,
+				9BC56C4761357B9160A12760 /* Pods_CryptoInfoMining.framework */,
+				DC95A91AB9BC9A7AE1933EA8 /* Pods_CryptoInfoMining_CryptoInfoMiningUITests.framework */,
+				F652B38110BFBE0C0DFEC431 /* Pods_CryptoInfoMiningTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195CDE832D04BE9C00F4E7B9 /* Build configuration list for PBXNativeTarget "CryptoInfoMining" */;
 			buildPhases = (
+				3BA919C3C8B8A1BA96BB9DFF /* [CP] Check Pods Manifest.lock */,
 				195CDE532D04BE9B00F4E7B9 /* Sources */,
 				195CDE542D04BE9B00F4E7B9 /* Frameworks */,
 				195CDE552D04BE9B00F4E7B9 /* Resources */,
+				990044FFDDB9AB06B139EB0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,20 +177,6 @@
 				195CDE592D04BE9B00F4E7B9 /* CryptoInfoMining */,
 			);
 			name = CryptoInfoMining;
-			packageProductDependencies = (
-				195455DA2D08B3C1000EAB75 /* SVProgressHUD */,
-				195455E12D08C67B000EAB75 /* RxBlocking */,
-				195455E32D08C67B000EAB75 /* RxBlocking-Dynamic */,
-				195455E52D08C67B000EAB75 /* RxCocoa */,
-				195455E72D08C67B000EAB75 /* RxCocoa-Dynamic */,
-				195455E92D08C67B000EAB75 /* RxRelay */,
-				195455EB2D08C67B000EAB75 /* RxRelay-Dynamic */,
-				195455ED2D08C67B000EAB75 /* RxSwift */,
-				195455EF2D08C67B000EAB75 /* RxSwift-Dynamic */,
-				195455F62D08CAFB000EAB75 /* Alamofire */,
-				195455F82D08CAFB000EAB75 /* AlamofireDynamic */,
-				195455FB2D08CB7D000EAB75 /* Reachability */,
-			);
 			productName = CryptoInfoMining;
 			productReference = 195CDE572D04BE9B00F4E7B9 /* CryptoInfoMining.app */;
 			productType = "com.apple.product-type.application";
@@ -178,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195CDE882D04BE9C00F4E7B9 /* Build configuration list for PBXNativeTarget "CryptoInfoMiningTests" */;
 			buildPhases = (
+				65A696BFC9A31AD9B282E1A3 /* [CP] Check Pods Manifest.lock */,
 				195CDE6C2D04BE9C00F4E7B9 /* Sources */,
 				195CDE6D2D04BE9C00F4E7B9 /* Frameworks */,
 				195CDE6E2D04BE9C00F4E7B9 /* Resources */,
+				BB1C75297FA141637802D026 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,10 +200,6 @@
 				195CDE732D04BE9C00F4E7B9 /* CryptoInfoMiningTests */,
 			);
 			name = CryptoInfoMiningTests;
-			packageProductDependencies = (
-				195455F12D08C67B000EAB75 /* RxTest */,
-				195455F32D08C67B000EAB75 /* RxTest-Dynamic */,
-			);
 			productName = CryptoInfoMiningTests;
 			productReference = 195CDE702D04BE9C00F4E7B9 /* CryptoInfoMiningTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -203,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195CDE8B2D04BE9C00F4E7B9 /* Build configuration list for PBXNativeTarget "CryptoInfoMiningUITests" */;
 			buildPhases = (
+				A795AAC5B38DE70D23A7B734 /* [CP] Check Pods Manifest.lock */,
 				195CDE762D04BE9C00F4E7B9 /* Sources */,
 				195CDE772D04BE9C00F4E7B9 /* Frameworks */,
 				195CDE782D04BE9C00F4E7B9 /* Resources */,
+				47C59669532E575972D6B486 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,8 +223,6 @@
 				195CDE7D2D04BE9C00F4E7B9 /* CryptoInfoMiningUITests */,
 			);
 			name = CryptoInfoMiningUITests;
-			packageProductDependencies = (
-			);
 			productName = CryptoInfoMiningUITests;
 			productReference = 195CDE7A2D04BE9C00F4E7B9 /* CryptoInfoMiningUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -254,12 +259,6 @@
 			);
 			mainGroup = 195CDE4E2D04BE9B00F4E7B9;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				195455D92D08B3C1000EAB75 /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
-				195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				195455F52D08CAFB000EAB75 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				195455FA2D08CB7D000EAB75 /* XCRemoteSwiftPackageReference "Reachability.swift" */,
-			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 195CDE582D04BE9B00F4E7B9 /* Products */;
 			projectDirPath = "";
@@ -277,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191ED2FD2D0A836F0013EB41 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +295,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA919C3C8B8A1BA96BB9DFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoInfoMining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47C59669532E575972D6B486 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoInfoMining-CryptoInfoMiningUITests/Pods-CryptoInfoMining-CryptoInfoMiningUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoInfoMining-CryptoInfoMiningUITests/Pods-CryptoInfoMining-CryptoInfoMiningUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoInfoMining-CryptoInfoMiningUITests/Pods-CryptoInfoMining-CryptoInfoMiningUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A696BFC9A31AD9B282E1A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoInfoMiningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990044FFDDB9AB06B139EB0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoInfoMining/Pods-CryptoInfoMining-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoInfoMining/Pods-CryptoInfoMining-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoInfoMining/Pods-CryptoInfoMining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A795AAC5B38DE70D23A7B734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoInfoMining-CryptoInfoMiningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1C75297FA141637802D026 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoInfoMiningTests/Pods-CryptoInfoMiningTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoInfoMiningTests/Pods-CryptoInfoMiningTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoInfoMiningTests/Pods-CryptoInfoMiningTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		195CDE532D04BE9B00F4E7B9 /* Sources */ = {
@@ -336,6 +456,7 @@
 /* Begin XCBuildConfiguration section */
 		195CDE842D04BE9C00F4E7B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41444B215298B8BACDD014AE /* Pods-CryptoInfoMining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -348,6 +469,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +485,7 @@
 		};
 		195CDE852D04BE9C00F4E7B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48AFB23BC984531DBC9F8E11 /* Pods-CryptoInfoMining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -375,6 +498,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,7 +549,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -488,7 +612,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -509,6 +633,7 @@
 		};
 		195CDE892D04BE9C00F4E7B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A139DEE84F0B08DF28373192 /* Pods-CryptoInfoMiningTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +652,7 @@
 		};
 		195CDE8A2D04BE9C00F4E7B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC5F953506367B2DFAE2021 /* Pods-CryptoInfoMiningTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +671,7 @@
 		};
 		195CDE8C2D04BE9C00F4E7B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80B1BA4F916828B3042C9D7 /* Pods-CryptoInfoMining-CryptoInfoMiningUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -561,6 +688,7 @@
 		};
 		195CDE8D2D04BE9C00F4E7B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1AE4E7372B2D0084D0294F /* Pods-CryptoInfoMining-CryptoInfoMiningUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -615,114 +743,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		195455D92D08B3C1000EAB75 /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.3.1;
-			};
-		};
-		195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.8.0;
-			};
-		};
-		195455F52D08CAFB000EAB75 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.10.2;
-			};
-		};
-		195455FA2D08CB7D000EAB75 /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ashleymills/Reachability.swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		195455DA2D08B3C1000EAB75 /* SVProgressHUD */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455D92D08B3C1000EAB75 /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
-			productName = SVProgressHUD;
-		};
-		195455E12D08C67B000EAB75 /* RxBlocking */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxBlocking;
-		};
-		195455E32D08C67B000EAB75 /* RxBlocking-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = "RxBlocking-Dynamic";
-		};
-		195455E52D08C67B000EAB75 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		195455E72D08C67B000EAB75 /* RxCocoa-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = "RxCocoa-Dynamic";
-		};
-		195455E92D08C67B000EAB75 /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		195455EB2D08C67B000EAB75 /* RxRelay-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = "RxRelay-Dynamic";
-		};
-		195455ED2D08C67B000EAB75 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		195455EF2D08C67B000EAB75 /* RxSwift-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = "RxSwift-Dynamic";
-		};
-		195455F12D08C67B000EAB75 /* RxTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
-		};
-		195455F32D08C67B000EAB75 /* RxTest-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455E02D08C67B000EAB75 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = "RxTest-Dynamic";
-		};
-		195455F62D08CAFB000EAB75 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455F52D08CAFB000EAB75 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		195455F82D08CAFB000EAB75 /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455F52D08CAFB000EAB75 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
-		};
-		195455FB2D08CB7D000EAB75 /* Reachability */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 195455FA2D08CB7D000EAB75 /* XCRemoteSwiftPackageReference "Reachability.swift" */;
-			productName = Reachability;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 195CDE4F2D04BE9B00F4E7B9 /* Project object */;
 }

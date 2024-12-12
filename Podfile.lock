@@ -1,0 +1,52 @@
+PODS:
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - ReachabilitySwift (5.2.4)
+  - RxBlocking (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxCocoa (6.8.0):
+    - RxRelay (= 6.8.0)
+    - RxSwift (= 6.8.0)
+  - RxRelay (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxSwift (6.8.0)
+  - RxTest (6.8.0):
+    - RxSwift (= 6.8.0)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+
+DEPENDENCIES:
+  - DGCharts (= 5.1.0)
+  - ReachabilitySwift (= 5.2.4)
+  - RxBlocking (= 6.8.0)
+  - RxCocoa (= 6.8.0)
+  - RxSwift (= 6.8.0)
+  - RxTest (= 6.8.0)
+  - SVProgressHUD (= 2.3.1)
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+    - ReachabilitySwift
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
+  RxBlocking: a8b634fba6850913bc3df40bb73fd08b2dbf0f01
+  RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
+  RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
+  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
+  RxTest: d0fa1ec82feb41efa826a59173ec65eafbbe4aaf
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+
+PODFILE CHECKSUM: 32a392c15e799f8d0ae3df0acfc9b6751cc0080e
+
+COCOAPODS: 1.16.2
