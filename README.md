@@ -12,9 +12,6 @@
 # CryptoMiningInfo
 <br />
 <p align="center">
-  <a href="https://github.com/alexanderritik/Best-README-Template">
-    <img src="logo.jpeg" alt="Logo" width="80" height="80">
-  </a>
   <p align="center">
     Do you need the most important info of the top 10 crypto on the world! This is the right app!
   </p>
